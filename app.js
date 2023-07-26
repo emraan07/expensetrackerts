@@ -162,6 +162,4 @@ app.get("/totalother", (req, res) => {
     })
 })
 // run server
-app.listen('3306', () => {
-    console.log("Server started running on PORT 3306")
-})
+app.listen()
